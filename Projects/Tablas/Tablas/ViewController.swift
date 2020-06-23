@@ -37,6 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let celda = UITableViewCell(style:UITableViewCell.CellStyle.default,reuseIdentifier: "Cell")
         
         celda.textLabel?.text = contenidoCeldas[contenido]
+//        Ponerle imagen
+        celda.imageView!.image = UIImage(named: "original.jpg")
         return celda
     }
 //    Accion que se activa automaricamente al presionar una celda en la tabla
@@ -54,6 +56,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let objPantalla2:ViewController2 = segue.destination as! ViewController2
 //            Le pasamos el id del objeto seleccionado
             objPantalla2.nombrePDFRecibido = contenidoCeldas[idPdfSeleccionadoRecibido]
+        }
+    }
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+//    Para el boton de delete
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            contenidoCeldas.remove(at: indexPath.row)
+            tableView.reloadData()
         }
     }
     

@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		667C27E624A070D800410998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C27E524A070D800410998 /* AppDelegate.swift */; };
 		667C27E824A070D800410998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C27E724A070D800410998 /* SceneDelegate.swift */; };
-		667C27EA24A070D800410998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C27E924A070D800410998 /* ViewController.swift */; };
 		667C27ED24A070D800410998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667C27EB24A070D800410998 /* Main.storyboard */; };
 		667C27EF24A070DE00410998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667C27EE24A070DE00410998 /* Assets.xcassets */; };
 		667C27F224A070DE00410998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667C27F024A070DE00410998 /* LaunchScreen.storyboard */; };
+		667C27FA24A0728A00410998 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667C27F924A0728A00410998 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		667C27E224A070D800410998 /* tablasFacil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tablasFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667C27E524A070D800410998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667C27E724A070D800410998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		667C27E924A070D800410998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		667C27EC24A070D800410998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		667C27EE24A070DE00410998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667C27F124A070DE00410998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		667C27F324A070DE00410998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667C27F924A0728A00410998 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				667C27E524A070D800410998 /* AppDelegate.swift */,
 				667C27E724A070D800410998 /* SceneDelegate.swift */,
-				667C27E924A070D800410998 /* ViewController.swift */,
 				667C27EB24A070D800410998 /* Main.storyboard */,
+				667C27F924A0728A00410998 /* TableViewController.swift */,
 				667C27EE24A070DE00410998 /* Assets.xcassets */,
 				667C27F024A070DE00410998 /* LaunchScreen.storyboard */,
 				667C27F324A070DE00410998 /* Info.plist */,
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667C27EA24A070D800410998 /* ViewController.swift in Sources */,
 				667C27E624A070D800410998 /* AppDelegate.swift in Sources */,
+				667C27FA24A0728A00410998 /* TableViewController.swift in Sources */,
 				667C27E824A070D800410998 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		667C27D5249F2DD900410998 /* PDF in Resources */ = {isa = PBXBuildFile; fileRef = 667C27D4249F2DD900410998 /* PDF */; };
 		667C27D824A0648D00410998 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667C27D724A0648D00410998 /* WebKit.framework */; };
+		667C27FC24A1200800410998 /* original.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667C27FB24A1200800410998 /* original.jpg */; };
 		6690A3CF249B38DF0089E1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690A3CE249B38DF0089E1EB /* AppDelegate.swift */; };
 		6690A3D1249B38DF0089E1EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690A3D0249B38DF0089E1EB /* SceneDelegate.swift */; };
 		6690A3D3249B38DF0089E1EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6690A3D2249B38DF0089E1EB /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		667C27D4249F2DD900410998 /* PDF */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PDF; sourceTree = "<group>"; };
 		667C27D724A0648D00410998 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		667C27FB24A1200800410998 /* original.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpg; sourceTree = "<group>"; };
 		6690A3CB249B38DF0089E1EB /* Tablas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tablas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6690A3CE249B38DF0089E1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6690A3D0249B38DF0089E1EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				6690A3D2249B38DF0089E1EB /* ViewController.swift */,
 				6690A3E2249BF4F40089E1EB /* ViewController2.swift */,
 				6690A3D4249B38DF0089E1EB /* Main.storyboard */,
+				667C27FB24A1200800410998 /* original.jpg */,
 				6690A3D7249B38E50089E1EB /* Assets.xcassets */,
 				6690A3D9249B38E50089E1EB /* LaunchScreen.storyboard */,
 				6690A3DC249B38E50089E1EB /* Info.plist */,
@@ -149,6 +152,7 @@
 				667C27D5249F2DD900410998 /* PDF in Resources */,
 				6690A3D8249B38E50089E1EB /* Assets.xcassets in Resources */,
 				6690A3D6249B38DF0089E1EB /* Main.storyboard in Resources */,
+				667C27FC24A1200800410998 /* original.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
