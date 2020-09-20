@@ -10,12 +10,21 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
+        return 50
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "colorCelda", for: indexPath)
+        cell.backgroundColor = UIColor.orange
+        
+        let red = CGFloat(Int(arc4random_uniform(55))) //Entre mas alto sea el rango, mas claro es el color.
+        let blue = CGFloat(Int(arc4random_uniform(155))+100)
+        let green = CGFloat(Int(arc4random_uniform(155))+100)
+        cell.backgroundColor = UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1.0)
+        return cell
     }
+    
     
 
     override func viewDidLoad() {
@@ -32,10 +41,5 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collection.delegate = self
         collection.dataSource = self
     }
-//    System Functions
-    func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        <#code#>
-    }(_ )
-    numberofItemsInSection
 }
 
