@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668D3A5C251853BB00FAD401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A5B251853BB00FAD401 /* AppDelegate.swift */; };
+		668D3A5E251853BB00FAD401 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A5D251853BB00FAD401 /* SceneDelegate.swift */; };
+		668D3A60251853BB00FAD401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A5F251853BB00FAD401 /* ViewController.swift */; };
+		668D3A63251853BB00FAD401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668D3A61251853BB00FAD401 /* Main.storyboard */; };
+		668D3A66251853BB00FAD401 /* guardaPalabras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A64251853BB00FAD401 /* guardaPalabras.xcdatamodeld */; };
+		668D3A68251853BE00FAD401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668D3A67251853BE00FAD401 /* Assets.xcassets */; };
+		668D3A6B251853BE00FAD401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668D3A69251853BE00FAD401 /* LaunchScreen.storyboard */; };
+		668D3A76251853BE00FAD401 /* guardaPalabrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A75251853BE00FAD401 /* guardaPalabrasTests.swift */; };
+		668D3A81251853BE00FAD401 /* guardaPalabrasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A80251853BE00FAD401 /* guardaPalabrasUITests.swift */; };
+		668D3A922518570400FAD401 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D3A912518570300FAD401 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668D3A72251853BE00FAD401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668D3A50251853BB00FAD401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668D3A57251853BB00FAD401;
+			remoteInfo = guardaPalabras;
+		};
+		668D3A7D251853BE00FAD401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668D3A50251853BB00FAD401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668D3A57251853BB00FAD401;
+			remoteInfo = guardaPalabras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		668D3A58251853BB00FAD401 /* guardaPalabras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guardaPalabras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668D3A5B251853BB00FAD401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		668D3A5D251853BB00FAD401 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		668D3A5F251853BB00FAD401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		668D3A62251853BB00FAD401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668D3A65251853BB00FAD401 /* guardaPalabras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = guardaPalabras.xcdatamodel; sourceTree = "<group>"; };
+		668D3A67251853BE00FAD401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668D3A6A251853BE00FAD401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668D3A6C251853BE00FAD401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668D3A71251853BE00FAD401 /* guardaPalabrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guardaPalabrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668D3A75251853BE00FAD401 /* guardaPalabrasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardaPalabrasTests.swift; sourceTree = "<group>"; };
+		668D3A77251853BE00FAD401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668D3A7C251853BE00FAD401 /* guardaPalabrasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guardaPalabrasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668D3A80251853BE00FAD401 /* guardaPalabrasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardaPalabrasUITests.swift; sourceTree = "<group>"; };
+		668D3A82251853BE00FAD401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668D3A912518570300FAD401 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668D3A55251853BB00FAD401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D3A6E251853BE00FAD401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D3A79251853BE00FAD401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668D3A4F251853BB00FAD401 = {
+			isa = PBXGroup;
+			children = (
+				668D3A5A251853BB00FAD401 /* guardaPalabras */,
+				668D3A74251853BE00FAD401 /* guardaPalabrasTests */,
+				668D3A7F251853BE00FAD401 /* guardaPalabrasUITests */,
+				668D3A59251853BB00FAD401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668D3A59251853BB00FAD401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668D3A58251853BB00FAD401 /* guardaPalabras.app */,
+				668D3A71251853BE00FAD401 /* guardaPalabrasTests.xctest */,
+				668D3A7C251853BE00FAD401 /* guardaPalabrasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668D3A5A251853BB00FAD401 /* guardaPalabras */ = {
+			isa = PBXGroup;
+			children = (
+				668D3A5B251853BB00FAD401 /* AppDelegate.swift */,
+				668D3A5D251853BB00FAD401 /* SceneDelegate.swift */,
+				668D3A5F251853BB00FAD401 /* ViewController.swift */,
+				668D3A912518570300FAD401 /* TableViewController.swift */,
+				668D3A61251853BB00FAD401 /* Main.storyboard */,
+				668D3A67251853BE00FAD401 /* Assets.xcassets */,
+				668D3A69251853BE00FAD401 /* LaunchScreen.storyboard */,
+				668D3A6C251853BE00FAD401 /* Info.plist */,
+				668D3A64251853BB00FAD401 /* guardaPalabras.xcdatamodeld */,
+			);
+			path = guardaPalabras;
+			sourceTree = "<group>";
+		};
+		668D3A74251853BE00FAD401 /* guardaPalabrasTests */ = {
+			isa = PBXGroup;
+			children = (
+				668D3A75251853BE00FAD401 /* guardaPalabrasTests.swift */,
+				668D3A77251853BE00FAD401 /* Info.plist */,
+			);
+			path = guardaPalabrasTests;
+			sourceTree = "<group>";
+		};
+		668D3A7F251853BE00FAD401 /* guardaPalabrasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				668D3A80251853BE00FAD401 /* guardaPalabrasUITests.swift */,
+				668D3A82251853BE00FAD401 /* Info.plist */,
+			);
+			path = guardaPalabrasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668D3A57251853BB00FAD401 /* guardaPalabras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668D3A85251853BE00FAD401 /* Build configuration list for PBXNativeTarget "guardaPalabras" */;
+			buildPhases = (
+				668D3A54251853BB00FAD401 /* Sources */,
+				668D3A55251853BB00FAD401 /* Frameworks */,
+				668D3A56251853BB00FAD401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guardaPalabras;
+			productName = guardaPalabras;
+			productReference = 668D3A58251853BB00FAD401 /* guardaPalabras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668D3A70251853BE00FAD401 /* guardaPalabrasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668D3A88251853BE00FAD401 /* Build configuration list for PBXNativeTarget "guardaPalabrasTests" */;
+			buildPhases = (
+				668D3A6D251853BE00FAD401 /* Sources */,
+				668D3A6E251853BE00FAD401 /* Frameworks */,
+				668D3A6F251853BE00FAD401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668D3A73251853BE00FAD401 /* PBXTargetDependency */,
+			);
+			name = guardaPalabrasTests;
+			productName = guardaPalabrasTests;
+			productReference = 668D3A71251853BE00FAD401 /* guardaPalabrasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		668D3A7B251853BE00FAD401 /* guardaPalabrasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668D3A8B251853BE00FAD401 /* Build configuration list for PBXNativeTarget "guardaPalabrasUITests" */;
+			buildPhases = (
+				668D3A78251853BE00FAD401 /* Sources */,
+				668D3A79251853BE00FAD401 /* Frameworks */,
+				668D3A7A251853BE00FAD401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668D3A7E251853BE00FAD401 /* PBXTargetDependency */,
+			);
+			name = guardaPalabrasUITests;
+			productName = guardaPalabrasUITests;
+			productReference = 668D3A7C251853BE00FAD401 /* guardaPalabrasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668D3A50251853BB00FAD401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					668D3A57251853BB00FAD401 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					668D3A70251853BE00FAD401 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 668D3A57251853BB00FAD401;
+					};
+					668D3A7B251853BE00FAD401 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 668D3A57251853BB00FAD401;
+					};
+				};
+			};
+			buildConfigurationList = 668D3A53251853BB00FAD401 /* Build configuration list for PBXProject "guardaPalabras" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668D3A4F251853BB00FAD401;
+			productRefGroup = 668D3A59251853BB00FAD401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668D3A57251853BB00FAD401 /* guardaPalabras */,
+				668D3A70251853BE00FAD401 /* guardaPalabrasTests */,
+				668D3A7B251853BE00FAD401 /* guardaPalabrasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668D3A56251853BB00FAD401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D3A6B251853BE00FAD401 /* LaunchScreen.storyboard in Resources */,
+				668D3A68251853BE00FAD401 /* Assets.xcassets in Resources */,
+				668D3A63251853BB00FAD401 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D3A6F251853BE00FAD401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D3A7A251853BE00FAD401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668D3A54251853BB00FAD401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D3A60251853BB00FAD401 /* ViewController.swift in Sources */,
+				668D3A66251853BB00FAD401 /* guardaPalabras.xcdatamodeld in Sources */,
+				668D3A5C251853BB00FAD401 /* AppDelegate.swift in Sources */,
+				668D3A922518570400FAD401 /* TableViewController.swift in Sources */,
+				668D3A5E251853BB00FAD401 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D3A6D251853BE00FAD401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D3A76251853BE00FAD401 /* guardaPalabrasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668D3A78251853BE00FAD401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668D3A81251853BE00FAD401 /* guardaPalabrasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668D3A73251853BE00FAD401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668D3A57251853BB00FAD401 /* guardaPalabras */;
+			targetProxy = 668D3A72251853BE00FAD401 /* PBXContainerItemProxy */;
+		};
+		668D3A7E251853BE00FAD401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668D3A57251853BB00FAD401 /* guardaPalabras */;
+			targetProxy = 668D3A7D251853BE00FAD401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		668D3A61251853BB00FAD401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668D3A62251853BB00FAD401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		668D3A69251853BE00FAD401 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668D3A6A251853BE00FAD401 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668D3A83251853BE00FAD401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		668D3A84251853BE00FAD401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668D3A86251853BE00FAD401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guardaPalabras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = galios.guardaPalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		668D3A87251853BE00FAD401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guardaPalabras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = galios.guardaPalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		668D3A89251853BE00FAD401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guardaPalabrasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = galios.guardaPalabrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guardaPalabras.app/guardaPalabras";
+			};
+			name = Debug;
+		};
+		668D3A8A251853BE00FAD401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guardaPalabrasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = galios.guardaPalabrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guardaPalabras.app/guardaPalabras";
+			};
+			name = Release;
+		};
+		668D3A8C251853BE00FAD401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guardaPalabrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = galios.guardaPalabrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = guardaPalabras;
+			};
+			name = Debug;
+		};
+		668D3A8D251853BE00FAD401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = guardaPalabrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = galios.guardaPalabrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = guardaPalabras;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668D3A53251853BB00FAD401 /* Build configuration list for PBXProject "guardaPalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D3A83251853BE00FAD401 /* Debug */,
+				668D3A84251853BE00FAD401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668D3A85251853BE00FAD401 /* Build configuration list for PBXNativeTarget "guardaPalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D3A86251853BE00FAD401 /* Debug */,
+				668D3A87251853BE00FAD401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668D3A88251853BE00FAD401 /* Build configuration list for PBXNativeTarget "guardaPalabrasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D3A89251853BE00FAD401 /* Debug */,
+				668D3A8A251853BE00FAD401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668D3A8B251853BE00FAD401 /* Build configuration list for PBXNativeTarget "guardaPalabrasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668D3A8C251853BE00FAD401 /* Debug */,
+				668D3A8D251853BE00FAD401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		668D3A64251853BB00FAD401 /* guardaPalabras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				668D3A65251853BB00FAD401 /* guardaPalabras.xcdatamodel */,
+			);
+			currentVersion = 668D3A65251853BB00FAD401 /* guardaPalabras.xcdatamodel */;
+			path = guardaPalabras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 668D3A50251853BB00FAD401 /* Project object */;
+}
