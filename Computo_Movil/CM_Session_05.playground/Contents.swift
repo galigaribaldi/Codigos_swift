@@ -1,7 +1,9 @@
 import UIKit
 
-print("Hola mundo")
+//impresion a pantalla
 
+print("Hola mundo")
+//constantes
 let pi = 4.1415223
 
 var edad = 18
