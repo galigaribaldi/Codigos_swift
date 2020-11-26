@@ -4,16 +4,9 @@
  @Descripcion: Project 1 of CM
  */
 import Foundation
-func input() -> String {
-    let keyboard = FileHandle.standardInput
-    let inputData = keyboard.availableData
-    return NSString(data: inputData, encoding:String.Encoding.utf8.rawValue)! as String
-}
+
 class Proyecto1 {
-//    Area de variables
-//    Cambiar listaedades, promedios y becados por diccionarios "Nombre": ValorPromedio,"Nombre": valoredades
-//    "Nombre": ValorBecados
-//Valores de edades
+//    Area de variables, se usan diccionarios para guardar [Nombre: Valor]
     var dict_edades: [String:Int] = [:]
     var dict_Promedios: [String:Double] = [:]
     var dict_Becados: [String:Bool] = [:]
@@ -63,10 +56,9 @@ class Proyecto1 {
     }
 }
 
-
 let Roy = Proyecto1()
-var res = 0
-while res == 0 {
+//var res = 0
+while true {
     print("Cuantos alumnos quieres pedir?\nPresiona 0 para salir")
     var iterations  = Int (readLine() ?? "1")
     if iterations == 0{
