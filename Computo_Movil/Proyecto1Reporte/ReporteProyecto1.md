@@ -119,4 +119,3 @@ while true {
 ![Captura de Pantalla 2020-11-25 a la(s) 18.56.11](Captura de Pantalla 2020-11-25 a la(s) 18.56.11.png)
 
 ![Captura de Pantalla 2020-11-25 a la(s) 18.56.02](Captura de Pantalla 2020-11-25 a la(s) 18.56.02.png)
-
