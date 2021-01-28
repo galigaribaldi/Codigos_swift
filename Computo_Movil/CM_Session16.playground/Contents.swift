@@ -1,8 +1,10 @@
 struct Vertex: Equatable, CustomStringConvertible{
     let x, y: Double
+    
     var description: String{
         return "\(x), \(y)"
     }
+    
 //    Una sola referencia a memoria
 //    Left Hand Size
     static func == (lhs: Vertex, rhs: Vertex) -> Bool{
@@ -18,8 +20,12 @@ protocol someProtocol{
     var propSettable: Int { get set }
     var propGettable: Int { get }
 }
-protocol NombreCompleto, CustomStringConvertible  {
-    var nombre: String { get }
+protocol NombreCompleto: NombreCompleto  {
+    var nombre: String
+    var descripcion: String{
+     return "Yo me llamo: \(nombre)"
+    }
+    func saluda()
 }
 struct Alumno: NombreCompleto {
     var nombre: String
