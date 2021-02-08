@@ -105,6 +105,3 @@ class Cliente {
 let facade = Facade()
 Cliente.clientCode(facade:facade)
 
-
-
-
